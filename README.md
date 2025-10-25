@@ -16,29 +16,6 @@ It demonstrates how a lexical analyzer breaks down SQL code into meaningful toke
 
 ---
 
-## 📦 Requirements
-
-* Python
-* PLY library
-Install PLY using:
-
-```bash
-pip install ply
-```
-
----
-
-## Project Structure
-```
-SQL-Lexer-using-PLY/
-│
-├── lex.py        # Main lexer implementation
-├── test.sql      # Sample SQL input file
-└── README.md     # Project documentation
-```
-
----
-
 ## To Use
 
 1. Clone this repository:
@@ -51,7 +28,6 @@ SQL-Lexer-using-PLY/
    python lex.py
    ```
 3. The lexer will display tokenized output for the given SQL input.
-
 ---
 
 ## Team
